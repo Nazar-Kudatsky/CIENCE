@@ -1,0 +1,68 @@
+.logoCompany {
+  display: flex;
+  justify-content: space-between;
+  padding: 70px 105px;
+
+  @media (max-width: 767px) {
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 35px;
+  }
+}
+
+.slider {
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin: 65px auto 60px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #2D2D2D;
+  }
+
+  &__text {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #2D2D2D;
+  }
+
+  &__director {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2D2D2D;
+    margin-top: 25px;
+  }
+
+  &__aboutDirector {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 25px;
+  }
+
+  &__container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+ 
+    .swiper-button-next::after, .swiper-button-prev::after {
+      color: #000;
+    }
+    
+    .swiper-button-next::after, .swiper-button-prev::after
+    
+    .swiper-container {
+      max-width: 1100px!important;
+    }
+  }
+}
+
